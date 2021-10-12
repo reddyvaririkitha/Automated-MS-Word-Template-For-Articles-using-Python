@@ -57,7 +57,8 @@ paragraph_font.size = Pt(12)
 # Paragraph styles- colour
 paragraph_font.color.rgb = RGBColor(0, 0, 0)
 
-Paragraph.add_run("\nPara")
+Paragraph.add_run("\nThis is the word document generated using python. This is a basic template and many other things "
+                  "can be added to this template such as- pictures, tables, bullets, header and footers, etc.")
 
 # saving the document
 document.save('template.docx')
